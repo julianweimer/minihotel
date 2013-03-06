@@ -1,0 +1,63 @@
+@import "compass/css3";
+
+article#page {
+
+  div.inquiries {
+
+    form {
+      width: 430px;
+      @include add-lines(1,margin-top);
+    }
+
+    .field, .action {
+      float: left;
+      @include add-lines(1,height);
+      @include add-lines(0.5,margin-bottom);
+    }
+
+    .field.message_field {
+
+      height: auto;
+
+    }
+
+    label {
+      width: 100px;
+      float: left;
+    }
+
+    input, textarea {
+      float: right;
+      border: 1px solid $sea-monster-green;
+      @include border-radius(5px);
+      @include add-lines(0.25,padding,1);
+    }
+
+    .actions {
+      a {
+        display:block;
+        float: left;
+        @include add-lines(0.5,padding,1);
+
+      }
+      padding-left: 100px;
+      input {
+        float: left;
+        @include background(linear-gradient($sea-monster-green-light,$white));
+        @include add-lines(0.5,padding,1);
+      }
+    }
+
+  }
+  .errorExplanation {
+    @include border-radius(5px);
+    border: 1px solid #9F1619;
+    @include add-lines(1,margin-bottom,1);
+    @include add-lines(0.5,padding,1);
+    color: #9F1619;
+
+    li {
+      list-style: none;
+    }
+  }
+}

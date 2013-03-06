@@ -1,0 +1,33 @@
+// Here is where you can define your constants for your application and to configure the blueprint framework.
+// Feel free to delete these if you want keep the defaults:
+
+$blueprint-grid-columns: 12;
+$blueprint-container-size: 1020px;
+$blueprint-grid-margin: 10px;
+
+// Use this to calculate the width based on the total width.
+// Or you can set $blueprint-grid-width to a fixed value and unset $blueprint-container-size -- it will be calculated for you.
+$blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $blueprint-grid-columns - $blueprint-grid-margin;
+
+/*Colors*/
+$white: #fff;
+$white-semi: rgba(255,255,255,0.8);
+$sky-blue: #D7EFFF;
+$bloody-red: #9F1619;
+$sea-monster-green: #006457;
+$sea-monster-green-light: #C8ECE7;
+$sea-monster-green-light-semi: rgba(200,236,231,0.5);
+
+/*Typography*/
+
+$font-size: 14;
+$line-height: 1.5em;
+
+@mixin add-lines($n, $rule, $p:0, $size:$font-size) {
+    #{$rule}: $n*$font-size*$line-height/$size - $p/$size;
+}
+
+@mixin set-font-size($size,$multiply_line-height:1) {
+    font-size:#{$size/$font-size}em;
+    line-height:$font-size*$line-height/$size;
+}

@@ -1,0 +1,74 @@
+body{
+  font-size: #{$font-size}px;
+  font-family: Helvetica;
+  color: $sea-monster-green;
+}
+
+textarea {
+  @include set-font-size(11);
+  color: black;
+}
+
+a {
+  color: $bloody-red;
+}
+
+article#page {
+
+  h1 {
+    @include add-lines(1,padding-top,0,48);
+    @include add-lines(1.5,padding-bottom,0,48);
+    @include set-font-size(48);
+    font-family: 'JournalRegular';
+    color: $sea-monster-green;
+  }
+
+  p {
+    @include add-lines(0.5,padding-bottom);
+  }
+
+  img {
+    @include add-lines(1,margin-bottom);
+  }
+
+  section.room {
+      @include add-lines(1,margin-top);
+
+    img {
+      float: left;
+      border: 5px solid $sea-monster-green-light;
+      @include border-radius(5px);
+      margin-right: 10px;
+    }
+
+     ul {
+       float: right;
+     }
+
+    p{
+      clear: both;
+      float: left;
+    }
+
+    h1 {
+      clear: both;
+    }
+  }
+
+  .pricetag {
+    @include set-font-size(18);
+    @include add-lines(1,margin-top,0,18);
+    @include add-lines(0.25,padding,0,18);
+    @include border-radius(5px);
+    float: left;
+    font-weight: bold;
+    background: $sea-monster-green-light;
+  }
+
+}
+
+body.ru article#page {
+  h1 {
+    font-family: 'MenuetscriptRegular'
+  }
+}

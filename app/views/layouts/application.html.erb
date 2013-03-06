@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<%= render :partial => "/refinery/html_tag" %>
+<% site_bar = render(:partial => "/refinery/site_bar", :locals => {:head => true}) -%>
+<%= render :partial => "/refinery/head" %>
+<body class="<%= params[:locale] %>">
+<%= render :partial => "/refinery/ie6check" if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
+<div id="page_container">
+  <header>
+    <div class="seperator top"></div>
+    <ul id="languages">
+      <li class="de"><a href="/de" alt="Deutsch">Deutsch</a></li>
+      <li class="en"><a href="/en" alt="English">English</a></li>
+      <li class="ru"><a href="/ru" alt="Russian">Russian</a></li>
+    </ul>
+    <%= render :partial => "/refinery/header" -%>
+    <a href="#hotelspider" id="inline" class="booking_button"><span><span><span>
+            <span>
+              <span class="last">
+                <%= copywriting('Online Booking',{ :default => 'Online Booking'}) %>
+              </span>
+            </span>
+    </span></span></span></a>
+  </header>
+  <article id='page'>
+    <div class="content">
+      <% if @page.id == 1 %>
+        <div id="slides">
+          <div class="slides_container">
+              <% @page.images.each do |i| %>
+                    <%= image_tag(i.thumbnail("500x500").url) %>
+              <% end %>
+          </div>
+        </div>
+    <% elsif @page.title == "Lage & Anfahrt" %>
+        <div id="map">bla</div>
+    <% end %>
+      <%= yield %>
+      <aside>
+        <!-- AddThis Button BEGIN -->
+        <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+          <a class="addthis_button_preferred_1"></a>
+          <a class="addthis_button_preferred_2"></a>
+          <a class="addthis_button_preferred_3"></a>
+          <a class="addthis_button_preferred_4"></a>
+          <a class="addthis_button_compact"></a>
+          <a class="addthis_counter addthis_bubble_style"></a>
+        </div>
+        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dcfc06e254371b5"></script>
+        <!-- AddThis Button END -->
+        <div id="vcard" class="vcard">
+          <span class="url fn org">
+            <span class="given-name"></span>
+            <span class="additional-name"></span>
+            <span class="family-name"></span>
+          </span>
+          <div class="org"><%= copywriting('Org', { :default => 'Mini-Hotel an der Messe' }) %></div>
+          <a class="email" href="mailto:hotel@hamburg-welcome.de">hotel@hamburg-welcome.de</a>
+          <div class="adr">
+            <div class="street-address"><%= copywriting('Street', { :default => 'Bundesstraße 8'}) %></div>
+            <span class="locality"><%= copywriting('Locality', { :default => 'Hamburg'}) %></span>
+            , 
+            <span class="postal-code"><%= copywriting('Postal Code', { :default => '20146'}) %></span>
+
+            <span class="country-name"><%= copywriting('Country', { :default => 'Germany'}) %></span>
+
+          </div>
+          <div class="tel"><%= copywriting('Tel', { :default => '+49 (0)40 / 53 30 19 15' }) %></div>
+        </div>
+
+      </div>
+    </aside>
+</article>
+<footer>
+  <div class="content">
+    <ul class="menu">
+    <li>
+      <a href="agb">AGB</a>
+    </li>
+    <li>
+      <a href="impressum">Impressum</a>
+    </li>
+    </ul>
+    <%= render :partial => "/refinery/footer" -%>
+  </div>
+</footer>
+<div id="hotelspider">
+  <iframe src="" frameborder="0"></iframe>
+</div>
+  </div>
+</div>
+<%= render :partial => "/refinery/javascripts" %>
+</body>
+</html>

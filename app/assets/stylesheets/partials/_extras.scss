@@ -1,0 +1,131 @@
+article#page .addthis_toolbox{
+  @include add-lines(1,margin-bottom);
+}
+
+.vcard {
+  border: 1px solid $sea-monster-green;
+  @include border-radius();
+  padding: 10px;
+  background: $white-semi;
+}
+
+#slides, #map {
+  @include add-lines(15,height);
+  width: 500px;
+  border: 5px solid $sea-monster-green-light;
+  @include border-radius(5px);
+  @include add-lines(1,margin-bottom);
+}
+
+#slides {
+  position: relative;
+  .prev, .next {
+    position: absolute;
+    width: 39px;
+    height: 48px;
+    top: 43%;
+    text-indent:-999px;
+  }
+  .prev {
+    left: 5px;
+    background: url('slideshow_button_prev.png');
+  }
+  .next {
+    right: 5px;
+
+    background: url('slideshow_button_next.png');
+  }
+}
+
+header {
+  .booking_button {
+    display: block;
+    @include rotate(-100deg);
+    position:absolute;
+    top: 100px;
+    right: 250px;
+    text-align: center;
+    text-decoration: none;
+    color: $white;
+    font-weight: bold;
+    opacity: 0.8;
+    span {
+      background: $bloody-red;
+      display:block;
+      width:7em;
+      height:7em;
+      @include border-radius(3em);
+      @include rotate(22.5deg);
+      -moz-transition: -moz-border-radius 0.2s ease-in;
+      -webkit-transition: -webkit-border-radius 0.2s ease-in;
+      transition: border-radius 0.2s ease-in;
+    }
+    span.last {
+      position: relative;
+      top: 30px;
+      right: 10px;
+      background: transparent;
+    }
+  }
+
+  .booking_button:hover {
+    background: transparent;
+    opacity: 1;
+    span {
+      @include border-radius(0);
+    }
+  }
+}
+.starburst4 span {
+  background:#78d7ff;
+  -webkit-transform:rotate(22.5deg);
+  -moz-transform:rotate(22.5deg);
+  rotation:22.5deg;
+  -moz-border-radius:2.5em;
+  -webkit-border-radius:2.5em;
+  border-radius:2.5em;
+}
+.starburst4:hover {
+  background:transparent;
+}
+.starburst4:hover span {
+  background:#08f;
+  color:#fff;
+  text-shadow:0 0 20px #fff, 0 0 8px #fff;
+  -moz-border-radius:0;
+  -webkit-border-radius:0;
+  border-radius:0;
+}
+
+/*header .booking_button span{*/
+  /*display: block;*/
+  /*height: 6em;*/
+  /*width: 6em;*/
+  /*background: $bloody_red;*/
+  /*color: white;*/
+  /*@include border-radius(4em);*/
+  /*[>@include single-transition(border-radius,0.2,ease-in);<]*/
+  /*-webkit-transform: rotate(-22.5deg);*/
+  /*}*/
+
+/*header .booking_button{*/
+  /*position: absolute;*/
+  /*top: 70px;*/
+  /*right: 300px;*/
+  /*background: white;*/
+  /*}*/
+
+/*header .booking_botton:hover {*/
+  /*}*/
+
+#hotelspider {
+  display: none;
+    /*height: 500px;*/
+    /*width: 700px;*/
+
+  iframe {
+    height: 500px;
+    width: 700px;
+  }
+
+}

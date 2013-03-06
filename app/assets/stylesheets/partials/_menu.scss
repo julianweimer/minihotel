@@ -1,0 +1,70 @@
+ul.menu{
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+    float: left;
+    border-right: 1px solid $bloody-red;
+    margin-right: 5px;
+    padding-right: 5px;
+    height: 1em;
+  }
+
+  li:last-child {
+    border: none;
+  }
+
+  li.selected a, li a:hover {
+    text-decoration: underline;
+  }
+
+}
+
+nav#menu ul.menu {
+  position: absolute; 
+  left: 350px;
+  bottom: 33px;
+}
+
+ul#languages {
+  position: absolute;
+  right: 10px;
+
+  li{
+    display: block;
+    height: 32px;
+    width: 32px;
+    text-indent: -9999px;
+
+    a {
+      display: block;
+      height: 100%;
+    }
+
+  }
+
+  li.de {
+    background: url('de.png');
+  }
+
+  li.en {
+    background: url('uk.png');
+  }
+
+  li.ru{
+    background: url('ru.png');
+  }
+
+}
+
+footer {
+  ul {
+    float: left;
+    li {
+      float: left;
+    }
+  }
+}

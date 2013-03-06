@@ -1,0 +1,84 @@
+html {
+  background: $white;
+  height: 100%;
+}
+
+body {
+  @include background(linear-gradient($sky-blue, $white, $white),$white);
+  height: 100%;
+}
+
+#page_container {
+  background: url('zahnpasta.png') no-repeat right 220px;
+  @include container;
+  min-height: 1000px;
+  overflow: inherit;
+}
+
+.seperator {
+  background: url('seperator.png');
+  height: 30px;
+  width: 100%;
+}
+
+.seperator.top {
+  position: absolute;
+  top: 215px;
+}
+
+header {
+  background: url('header_bg.png');
+  height: 240px;
+  position: relative;
+
+  h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    background: url('minihotel_logo.png') -35px 10px;
+    height: 223px;
+    width: 327px;
+    text-indent: -9999px;
+  }
+
+}
+
+article#page {
+  min-height: 600px;
+  position: relative;
+  .content {
+    margin: 10px;
+  }
+
+  section#body_content {
+    /*padding-left: 10px;*/
+    @include column(7.7);
+    #body_content_left {
+      @include column(6);
+    }
+  }
+
+
+  aside {
+    @include add-lines(1,padding-top);
+    @include column(4,true);
+    float: left;
+  }
+
+}
+
+footer {
+  @include column(12,true);
+  /*width: 1020px;*/
+  @include add-lines(2,margin-top);
+  background: url('seperator.png') no-repeat top left;
+
+  .content {
+    margin: 10px;
+    @include add-lines(1.5,margin-top);
+  }
+
+  p {
+    float: right;
+  }
+}

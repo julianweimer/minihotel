@@ -1,0 +1,1064 @@
+/*Colors*/
+/*Typography*/
+/* line 4, ../../../../../.rvm/gems/ruby-1.8.7-p371/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 18, ../../../../../.rvm/gems/ruby-1.8.7-p371/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+.bp-reset-element, body, h1, h2, h3, h4, h5, h6, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, blockquote, q, th, td, caption, table,
+div, span, object, iframe, p,
+pre, a, abbr, acronym, address,
+code, del, dfn, em, img,
+dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend,
+caption, tbody, tfoot, thead, tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../.rvm/gems/ruby-1.8.7-p371/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 21, ../../../../../.rvm/gems/ruby-1.8.7-p371/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+blockquote, q {
+  quotes: "" "";
+}
+/* line 67, ../../../../../.rvm/gems/ruby-1.8.7-p371/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+/* line 22, ../../../../../.rvm/gems/ruby-1.8.7-p371/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+th, td, caption {
+  float: none !important;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../../.rvm/gems/ruby-1.8.7-p371/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 24, ../../../../../.rvm/gems/ruby-1.8.7-p371/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 1, ../../app/assets/stylesheets/partials/_page.scss */
+html {
+  background: white;
+  height: 100%;
+}
+
+/* line 6, ../../app/assets/stylesheets/partials/_page.scss */
+body {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d7efff), color-stop(50%, #ffffff), color-stop(100%, #ffffff)), white;
+  background: -webkit-linear-gradient(#d7efff, #ffffff, #ffffff), white;
+  background: -moz-linear-gradient(#d7efff, #ffffff, #ffffff), white;
+  background: -o-linear-gradient(#d7efff, #ffffff, #ffffff), white;
+  background: linear-gradient(#d7efff, #ffffff, #ffffff), white;
+  height: 100%;
+}
+
+/* line 11, ../../app/assets/stylesheets/partials/_page.scss */
+#page_container {
+  background: url("zahnpasta.png") no-repeat right 220px;
+  width: 1020px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  min-height: 1000px;
+  overflow: inherit;
+}
+
+/* line 18, ../../app/assets/stylesheets/partials/_page.scss */
+.seperator {
+  background: url("seperator.png");
+  height: 30px;
+  width: 100%;
+}
+
+/* line 24, ../../app/assets/stylesheets/partials/_page.scss */
+.seperator.top {
+  position: absolute;
+  top: 215px;
+}
+
+/* line 29, ../../app/assets/stylesheets/partials/_page.scss */
+header {
+  background: url("header_bg.png");
+  height: 240px;
+  position: relative;
+}
+/* line 34, ../../app/assets/stylesheets/partials/_page.scss */
+header h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  background: url("minihotel_logo.png") -35px 10px;
+  height: 223px;
+  width: 327px;
+  text-indent: -9999px;
+}
+
+/* line 46, ../../app/assets/stylesheets/partials/_page.scss */
+article#page {
+  min-height: 600px;
+  position: relative;
+}
+/* line 49, ../../app/assets/stylesheets/partials/_page.scss */
+article#page .content {
+  margin: 10px;
+}
+/* line 53, ../../app/assets/stylesheets/partials/_page.scss */
+article#page section#body_content {
+  /*padding-left: 10px;*/
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 650.91667px;
+}
+/* line 147, ../../../../../.rvm/gems/ruby-1.8.7-p371/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html article#page section#body_content {
+  overflow-x: hidden;
+}
+/* line 56, ../../app/assets/stylesheets/partials/_page.scss */
+article#page section#body_content #body_content_left {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 505px;
+}
+/* line 147, ../../../../../.rvm/gems/ruby-1.8.7-p371/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html article#page section#body_content #body_content_left {
+  overflow-x: hidden;
+}
+/* line 62, ../../app/assets/stylesheets/partials/_page.scss */
+article#page aside {
+  padding-top: 1.5em;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 333.33333px;
+  float: left;
+}
+/* line 147, ../../../../../.rvm/gems/ruby-1.8.7-p371/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html article#page aside {
+  overflow-x: hidden;
+}
+
+/* line 70, ../../app/assets/stylesheets/partials/_page.scss */
+footer {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 1020px;
+  /*width: 1020px;*/
+  margin-top: 3em;
+  background: url("seperator.png") no-repeat top left;
+}
+/* line 147, ../../../../../.rvm/gems/ruby-1.8.7-p371/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html footer {
+  overflow-x: hidden;
+}
+/* line 76, ../../app/assets/stylesheets/partials/_page.scss */
+footer .content {
+  margin: 10px;
+  margin-top: 2.25em;
+}
+/* line 81, ../../app/assets/stylesheets/partials/_page.scss */
+footer p {
+  float: right;
+}
+
+@font-face {
+  font-family: 'JournalRegular';
+  src: url("/fonts/journal-webfont.eot");
+  src: url("/fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/journal-webfont.woff") format("woff"), url("/fonts/journal-webfont.ttf") format("truetype"), url("/fonts/journal-webfont.svg#JournalRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MenuetscriptRegular';
+  src: url("/fonts/menuet-webfont.eot");
+  src: url("/fonts/menuet-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/menuet-webfont.woff") format("woff"), url("/fonts/menuet-webfont.ttf") format("truetype"), url("/fonts/menuet-webfont.svg#JournalRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../app/assets/stylesheets/partials/_content.scss */
+body {
+  font-size: 14px;
+  font-family: Helvetica;
+  color: #006457;
+}
+
+/* line 7, ../../app/assets/stylesheets/partials/_content.scss */
+textarea {
+  font-size: 0.78571em;
+  line-height: 1.90909em;
+  color: black;
+}
+
+/* line 12, ../../app/assets/stylesheets/partials/_content.scss */
+a {
+  color: #9f1619;
+}
+
+/* line 18, ../../app/assets/stylesheets/partials/_content.scss */
+article#page h1 {
+  padding-top: 0.4375em;
+  padding-bottom: 0.65625em;
+  font-size: 3.42857em;
+  line-height: 0.4375em;
+  font-family: 'JournalRegular';
+  color: #006457;
+}
+/* line 26, ../../app/assets/stylesheets/partials/_content.scss */
+article#page p {
+  padding-bottom: 0.75em;
+}
+/* line 30, ../../app/assets/stylesheets/partials/_content.scss */
+article#page img {
+  margin-bottom: 1.5em;
+}
+/* line 34, ../../app/assets/stylesheets/partials/_content.scss */
+article#page section.room {
+  margin-top: 1.5em;
+}
+/* line 37, ../../app/assets/stylesheets/partials/_content.scss */
+article#page section.room img {
+  float: left;
+  border: 5px solid #c8ece7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+/* line 44, ../../app/assets/stylesheets/partials/_content.scss */
+article#page section.room ul {
+  float: right;
+}
+/* line 48, ../../app/assets/stylesheets/partials/_content.scss */
+article#page section.room p {
+  clear: both;
+  float: left;
+}
+/* line 53, ../../app/assets/stylesheets/partials/_content.scss */
+article#page section.room h1 {
+  clear: both;
+}
+/* line 58, ../../app/assets/stylesheets/partials/_content.scss */
+article#page .pricetag {
+  font-size: 1.28571em;
+  line-height: 1.16667em;
+  margin-top: 1.16667em;
+  padding: 0.29167em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  float: left;
+  font-weight: bold;
+  background: #c8ece7;
+}
+
+/* line 71, ../../app/assets/stylesheets/partials/_content.scss */
+body.ru article#page h1 {
+  font-family: "MenuetscriptRegular";
+}
+
+/* line 3, ../../app/assets/stylesheets/partials/_menu.scss */
+ul.menu a {
+  text-decoration: none;
+}
+/* line 7, ../../app/assets/stylesheets/partials/_menu.scss */
+ul.menu li {
+  list-style: none;
+  float: left;
+  border-right: 1px solid #9f1619;
+  margin-right: 5px;
+  padding-right: 5px;
+  height: 1em;
+}
+/* line 16, ../../app/assets/stylesheets/partials/_menu.scss */
+ul.menu li:last-child {
+  border: none;
+}
+/* line 20, ../../app/assets/stylesheets/partials/_menu.scss */
+ul.menu li.selected a, ul.menu li a:hover {
+  text-decoration: underline;
+}
+
+/* line 26, ../../app/assets/stylesheets/partials/_menu.scss */
+nav#menu ul.menu {
+  position: absolute;
+  left: 350px;
+  bottom: 33px;
+}
+
+/* line 32, ../../app/assets/stylesheets/partials/_menu.scss */
+ul#languages {
+  position: absolute;
+  right: 10px;
+}
+/* line 36, ../../app/assets/stylesheets/partials/_menu.scss */
+ul#languages li {
+  display: block;
+  height: 32px;
+  width: 32px;
+  text-indent: -9999px;
+}
+/* line 42, ../../app/assets/stylesheets/partials/_menu.scss */
+ul#languages li a {
+  display: block;
+  height: 100%;
+}
+/* line 49, ../../app/assets/stylesheets/partials/_menu.scss */
+ul#languages li.de {
+  background: url("de.png");
+}
+/* line 53, ../../app/assets/stylesheets/partials/_menu.scss */
+ul#languages li.en {
+  background: url("uk.png");
+}
+/* line 57, ../../app/assets/stylesheets/partials/_menu.scss */
+ul#languages li.ru {
+  background: url("ru.png");
+}
+
+/* line 64, ../../app/assets/stylesheets/partials/_menu.scss */
+footer ul {
+  float: left;
+}
+/* line 66, ../../app/assets/stylesheets/partials/_menu.scss */
+footer ul li {
+  float: left;
+}
+
+/* line 7, ../../app/assets/stylesheets/partials/_form.scss */
+article#page div.inquiries form {
+  width: 430px;
+  margin-top: 1.5em;
+}
+/* line 12, ../../app/assets/stylesheets/partials/_form.scss */
+article#page div.inquiries .field, article#page div.inquiries .action {
+  float: left;
+  height: 1.5em;
+  margin-bottom: 0.75em;
+}
+/* line 18, ../../app/assets/stylesheets/partials/_form.scss */
+article#page div.inquiries .field.message_field {
+  height: auto;
+}
+/* line 24, ../../app/assets/stylesheets/partials/_form.scss */
+article#page div.inquiries label {
+  width: 100px;
+  float: left;
+}
+/* line 29, ../../app/assets/stylesheets/partials/_form.scss */
+article#page div.inquiries input, article#page div.inquiries textarea {
+  float: right;
+  border: 1px solid #006457;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0.30357em;
+}
+/* line 36, ../../app/assets/stylesheets/partials/_form.scss */
+article#page div.inquiries .actions {
+  padding-left: 100px;
+}
+/* line 37, ../../app/assets/stylesheets/partials/_form.scss */
+article#page div.inquiries .actions a {
+  display: block;
+  float: left;
+  padding: 0.67857em;
+}
+/* line 44, ../../app/assets/stylesheets/partials/_form.scss */
+article#page div.inquiries .actions input {
+  float: left;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c8ece7), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(#c8ece7, #ffffff);
+  background: -moz-linear-gradient(#c8ece7, #ffffff);
+  background: -o-linear-gradient(#c8ece7, #ffffff);
+  background: linear-gradient(#c8ece7, #ffffff);
+  padding: 0.67857em;
+}
+/* line 52, ../../app/assets/stylesheets/partials/_form.scss */
+article#page .errorExplanation {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #9f1619;
+  margin-bottom: 1.42857em;
+  padding: 0.67857em;
+  color: #9F1619;
+}
+/* line 59, ../../app/assets/stylesheets/partials/_form.scss */
+article#page .errorExplanation li {
+  list-style: none;
+}
+
+/* line 1, ../../app/assets/stylesheets/partials/_extras.scss */
+article#page .addthis_toolbox {
+  margin-bottom: 1.5em;
+}
+
+/* line 5, ../../app/assets/stylesheets/partials/_extras.scss */
+.vcard {
+  border: 1px solid #006457;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* line 12, ../../app/assets/stylesheets/partials/_extras.scss */
+#slides, #map {
+  height: 22.5em;
+  width: 500px;
+  border: 5px solid #c8ece7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+}
+
+/* line 20, ../../app/assets/stylesheets/partials/_extras.scss */
+#slides {
+  position: relative;
+}
+/* line 22, ../../app/assets/stylesheets/partials/_extras.scss */
+#slides .prev, #slides .next {
+  position: absolute;
+  width: 39px;
+  height: 48px;
+  top: 43%;
+  text-indent: -999px;
+}
+/* line 29, ../../app/assets/stylesheets/partials/_extras.scss */
+#slides .prev {
+  left: 5px;
+  background: url("slideshow_button_prev.png");
+}
+/* line 33, ../../app/assets/stylesheets/partials/_extras.scss */
+#slides .next {
+  right: 5px;
+  background: url("slideshow_button_next.png");
+}
+
+/* line 41, ../../app/assets/stylesheets/partials/_extras.scss */
+header .booking_button {
+  display: block;
+  -webkit-transform: rotate(-100deg);
+  -moz-transform: rotate(-100deg);
+  -ms-transform: rotate(-100deg);
+  -o-transform: rotate(-100deg);
+  transform: rotate(-100deg);
+  position: absolute;
+  top: 100px;
+  right: 250px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  opacity: 0.8;
+}
+/* line 52, ../../app/assets/stylesheets/partials/_extras.scss */
+header .booking_button span {
+  background: #9f1619;
+  display: block;
+  width: 7em;
+  height: 7em;
+  -webkit-border-radius: 3em;
+  -moz-border-radius: 3em;
+  -ms-border-radius: 3em;
+  -o-border-radius: 3em;
+  border-radius: 3em;
+  -webkit-transform: rotate(22.5deg);
+  -moz-transform: rotate(22.5deg);
+  -ms-transform: rotate(22.5deg);
+  -o-transform: rotate(22.5deg);
+  transform: rotate(22.5deg);
+  -moz-transition: -moz-border-radius 0.2s ease-in;
+  -webkit-transition: -webkit-border-radius 0.2s ease-in;
+  transition: border-radius 0.2s ease-in;
+}
+/* line 63, ../../app/assets/stylesheets/partials/_extras.scss */
+header .booking_button span.last {
+  position: relative;
+  top: 30px;
+  right: 10px;
+  background: transparent;
+}
+/* line 71, ../../app/assets/stylesheets/partials/_extras.scss */
+header .booking_button:hover {
+  background: transparent;
+  opacity: 1;
+}
+/* line 74, ../../app/assets/stylesheets/partials/_extras.scss */
+header .booking_button:hover span {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 79, ../../app/assets/stylesheets/partials/_extras.scss */
+.starburst4 span {
+  background: #78d7ff;
+  -webkit-transform: rotate(22.5deg);
+  -moz-transform: rotate(22.5deg);
+  rotation: 22.5deg;
+  -moz-border-radius: 2.5em;
+  -webkit-border-radius: 2.5em;
+  border-radius: 2.5em;
+}
+
+/* line 88, ../../app/assets/stylesheets/partials/_extras.scss */
+.starburst4:hover {
+  background: transparent;
+}
+
+/* line 91, ../../app/assets/stylesheets/partials/_extras.scss */
+.starburst4:hover span {
+  background: #08f;
+  color: #fff;
+  text-shadow: 0 0 20px white, 0 0 8px white;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+/*header .booking_button span{*/
+/*display: block;*/
+/*height: 6em;*/
+/*width: 6em;*/
+/*background: $bloody_red;*/
+/*color: white;*/
+/*@include border-radius(4em);*/
+/*[>@include single-transition(border-radius,0.2,ease-in);<]*/
+/*-webkit-transform: rotate(-22.5deg);*/
+/*}*/
+/*header .booking_button{*/
+/*position: absolute;*/
+/*top: 70px;*/
+/*right: 300px;*/
+/*background: white;*/
+/*}*/
+/*header .booking_botton:hover {*/
+/*}*/
+/* line 121, ../../app/assets/stylesheets/partials/_extras.scss */
+#hotelspider {
+  display: none;
+  /*height: 500px;*/
+  /*width: 700px;*/
+}
+/* line 126, ../../app/assets/stylesheets/partials/_extras.scss */
+#hotelspider iframe {
+  height: 500px;
+  width: 700px;
+}
+
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at: http://fancybox.net
+ * 
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
+ * 
+ * Version: 1.3.4 (11/11/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+/* line 18, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  margin-left: -20px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1104;
+  display: none;
+}
+
+/* line 32, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-loading div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 480px;
+  background-image: url("fancybox/fancybox.png");
+}
+
+/* line 41, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1100;
+  display: none;
+}
+
+/* line 50, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-tmp {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  overflow: auto;
+  display: none;
+}
+
+/* line 58, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  z-index: 1101;
+  outline: none;
+  display: none;
+}
+
+/* line 68, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-outer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+/* line 75, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-content {
+  width: 0;
+  height: 0;
+  padding: 0;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1102;
+  border: 0px solid white;
+}
+
+/* line 86, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-hide-sel-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 1101;
+}
+
+/* line 96, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  background: transparent url("fancybox/fancybox.png") -40px 0px;
+  cursor: pointer;
+  z-index: 1103;
+  display: none;
+}
+
+/* line 108, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-error {
+  color: #444;
+  font: normal 12px/20px Arial;
+  padding: 14px;
+  margin: 0;
+}
+
+/* line 115, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  line-height: 0;
+  vertical-align: top;
+}
+
+/* line 126, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+/* line 133, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-left, #fancybox-right {
+  position: absolute;
+  bottom: 0px;
+  height: 100%;
+  width: 35%;
+  cursor: pointer;
+  outline: none;
+  background: transparent url("fancybox/blank.gif");
+  z-index: 1102;
+  display: none;
+}
+
+/* line 145, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-left {
+  left: 0px;
+}
+
+/* line 149, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-right {
+  right: 0px;
+}
+
+/* line 153, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-left-ico, #fancybox-right-ico {
+  position: absolute;
+  top: 50%;
+  left: -9999px;
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  cursor: pointer;
+  z-index: 1102;
+  display: block;
+}
+
+/* line 165, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-left-ico {
+  background-image: url("fancybox/fancybox.png");
+  background-position: -40px -30px;
+}
+
+/* line 170, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-right-ico {
+  background-image: url("fancybox/fancybox.png");
+  background-position: -40px -60px;
+}
+
+/* line 175, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-left:hover, #fancybox-right:hover {
+  visibility: visible;
+  /* IE6 */
+}
+
+/* line 179, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-left:hover span {
+  left: 20px;
+}
+
+/* line 183, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-right:hover span {
+  left: auto;
+  right: 20px;
+}
+
+/* line 188, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-bg {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 20px;
+  height: 20px;
+  z-index: 1001;
+}
+
+/* line 198, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-bg-n {
+  top: -20px;
+  left: 0;
+  width: 100%;
+  background-image: url("fancybox/fancybox-x.png");
+}
+
+/* line 205, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-bg-ne {
+  top: -20px;
+  right: -20px;
+  background-image: url("fancybox/fancybox.png");
+  background-position: -40px -162px;
+}
+
+/* line 212, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-bg-e {
+  top: 0;
+  right: -20px;
+  height: 100%;
+  background-image: url("fancybox/fancybox-y.png");
+  background-position: -20px 0px;
+}
+
+/* line 220, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-bg-se {
+  bottom: -20px;
+  right: -20px;
+  background-image: url("fancybox/fancybox.png");
+  background-position: -40px -182px;
+}
+
+/* line 227, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-bg-s {
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  background-image: url("fancybox/fancybox-x.png");
+  background-position: 0px -20px;
+}
+
+/* line 235, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-bg-sw {
+  bottom: -20px;
+  left: -20px;
+  background-image: url("fancybox/fancybox.png");
+  background-position: -40px -142px;
+}
+
+/* line 242, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-bg-w {
+  top: 0;
+  left: -20px;
+  height: 100%;
+  background-image: url("fancybox/fancybox-y.png");
+}
+
+/* line 249, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-bg-nw {
+  top: -20px;
+  left: -20px;
+  background-image: url("fancybox/fancybox.png");
+  background-position: -40px -122px;
+}
+
+/* line 256, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-title {
+  font-family: Helvetica;
+  font-size: 12px;
+  z-index: 1102;
+}
+
+/* line 262, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-title-inside {
+  padding-bottom: 10px;
+  text-align: center;
+  color: #333;
+  background: #fff;
+  position: relative;
+}
+
+/* line 270, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-title-outside {
+  padding-top: 10px;
+  color: #fff;
+}
+
+/* line 275, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-title-over {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #FFF;
+  text-align: left;
+}
+
+/* line 283, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-title-over {
+  padding: 10px;
+  background-image: url("fancybox/fancy_title_over.png");
+  display: block;
+}
+
+/* line 289, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-title-float {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  height: 32px;
+}
+
+/* line 296, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-title-float-wrap {
+  border: none;
+  border-collapse: collapse;
+  width: auto;
+}
+
+/* line 302, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-title-float-wrap td {
+  border: none;
+  white-space: nowrap;
+}
+
+/* line 307, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-title-float-left {
+  padding: 0 0 0 15px;
+  background: url("fancybox/fancybox.png") -40px -90px no-repeat;
+}
+
+/* line 312, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-title-float-main {
+  color: #FFF;
+  line-height: 29px;
+  font-weight: bold;
+  padding: 0 0 3px 0;
+  background: url("fancybox/fancybox-x.png") 0px -40px;
+}
+
+/* line 320, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-title-float-right {
+  padding: 0 0 0 15px;
+  background: url("fancybox/fancybox.png") -55px -90px no-repeat;
+}
+
+/* IE6 */
+/* line 327, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie6 #fancybox-close {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_close.png', sizingMethod='scale');
+}
+
+/* line 329, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie6 #fancybox-left-ico {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_nav_left.png', sizingMethod='scale');
+}
+
+/* line 330, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie6 #fancybox-right-ico {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_nav_right.png', sizingMethod='scale');
+}
+
+/* line 332, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie6 #fancybox-title-over {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_title_over.png', sizingMethod='scale');
+  zoom: 1;
+}
+
+/* line 333, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie6 #fancybox-title-float-left {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_title_left.png', sizingMethod='scale');
+}
+
+/* line 334, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie6 #fancybox-title-float-main {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_title_main.png', sizingMethod='scale');
+}
+
+/* line 335, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie6 #fancybox-title-float-right {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_title_right.png', sizingMethod='scale');
+}
+
+/* line 337, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie6 #fancybox-bg-w, .fancybox-ie6 #fancybox-bg-e, .fancybox-ie6 #fancybox-left, .fancybox-ie6 #fancybox-right, #fancybox-hide-sel-frame {
+  height: expression(this.parentNode.clientHeight + "px");
+}
+
+/* line 341, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-loading.fancybox-ie6 {
+  position: absolute;
+  margin-top: 0;
+  top: expression((-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2 ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop )) + 'px');
+}
+
+/* line 346, ../../app/assets/stylesheets/partials/_fancybox.scss */
+#fancybox-loading.fancybox-ie6 div {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_loading.png', sizingMethod='scale');
+}
+
+/* IE6, IE7, IE8 */
+/* line 350, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie .fancybox-bg {
+  background: transparent !important;
+}
+
+/* line 352, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie #fancybox-bg-n {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_shadow_n.png', sizingMethod='scale');
+}
+
+/* line 353, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie #fancybox-bg-ne {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_shadow_ne.png', sizingMethod='scale');
+}
+
+/* line 354, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie #fancybox-bg-e {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_shadow_e.png', sizingMethod='scale');
+}
+
+/* line 355, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie #fancybox-bg-se {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_shadow_se.png', sizingMethod='scale');
+}
+
+/* line 356, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie #fancybox-bg-s {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_shadow_s.png', sizingMethod='scale');
+}
+
+/* line 357, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie #fancybox-bg-sw {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_shadow_sw.png', sizingMethod='scale');
+}
+
+/* line 358, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie #fancybox-bg-w {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_shadow_w.png', sizingMethod='scale');
+}
+
+/* line 359, ../../app/assets/stylesheets/partials/_fancybox.scss */
+.fancybox-ie #fancybox-bg-nw {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(srcfancybox/fancy_shadow_nw.png', sizingMethod='scale');
+}
