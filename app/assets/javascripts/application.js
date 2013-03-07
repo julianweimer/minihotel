@@ -1,4 +1,8 @@
 $(function() {
+	
+	// Variables for Reservento integration
+	var width = 500;
+	var height = 500;
 
     $('#map, #slides').remove().insertAfter('section#body_content h1');
 

@@ -38,6 +38,9 @@ end
 #### Personal Settings
 ## User and Password
 
+# keep only 3 releases to free up disk space
+set :keep_releases, 3
+
 # user to login to the target server
 set :user, "user24832035"
 
