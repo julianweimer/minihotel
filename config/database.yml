@@ -1,34 +1,26 @@
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+development:
+  adapter: sqlite3
+  database: db/development.sqlite3
+  pool: 5
+  timeout: 5000
 
-
-development: &db
-  adapter: mysql2
-  encoding: utf8
-  database: db_24832035n1
-  username: user24832035n1
-  password: cJfyaHwB
-  host:     zeta.railshoster.de
-
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
 test:
-  <<: *db
-
-  database: db_24832035n3
-  username: user24832035n3
-  password: Po5tp6ha
-  host:     zeta.railshoster.de
+  adapter: sqlite3
+  database: db/test.sqlite3
+  pool: 5
+  timeout: 5000
 
 production:
-  <<: *db
-
-  database: db_24832035n2
-  username: user24832035n2
-  password: fC1FDGOc
-  host:     zeta.railshoster.de
-
-
-
-
-
-
-
-
-
+adapter: mysql2
+host: localhost
+database: db_24832035n1
+username: user24832035n1
+password: gopa3018
