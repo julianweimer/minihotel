@@ -9,11 +9,12 @@ gem 'truncate_html', '0.5.5'
 
 gem 'mysql2'
 
+gem 'compass'
+gem 'compass-rails'
+
 group :assets do
   gem 'rb-fsevent', '~> 0.9'
-  gem 'compass'
   gem "guard-livereload", "~> 1.1.3"
-  gem 'compass-rails'
 end
 
 # Bundle edge Rails instead:
