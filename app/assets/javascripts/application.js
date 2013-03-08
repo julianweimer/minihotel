@@ -20,7 +20,7 @@ $(function() {
         effect: 'fade',
         play: 5000,
 	preload: true,
-	preloadImage: '/images/2.gif'
+	preloadImage: '2.gif'
     });
 
     $('a.booking_button').fancybox({
