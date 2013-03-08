@@ -19,6 +19,7 @@ article#page .addthis_toolbox{
 
 #slides {
   position: relative;
+  overflow: hidden;
   .prev, .next {
     position: absolute;
     width: 39px;
