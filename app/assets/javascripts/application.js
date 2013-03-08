@@ -18,7 +18,9 @@ $(function() {
         generateNextPrev: true,
         generatePagination: false,
         effect: 'fade',
-        play: 5000
+        play: 5000,
+	preload: true,
+	preloadImage: '/images/2.gif'
     });
 
     $('a.booking_button').fancybox({
