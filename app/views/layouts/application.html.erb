@@ -23,7 +23,7 @@
   </header>
   <article id='page'>
     <div class="content">
-      <% if @page.id == 1 %>
+      <% if @page.link_url == '/' %>
         <div id="slides">
           <div class="slides_container">
               <% @page.images.each do |i| %>
