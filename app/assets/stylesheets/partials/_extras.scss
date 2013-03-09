@@ -30,12 +30,12 @@ article#page .addthis_toolbox{
   .prev {
     left: 5px;
     background: url('slideshow_button_prev.png');
-    z-index: 99999999;
+    z-index: 99;
   }
   .next {
     right: 5px;
     background: url('slideshow_button_next.png');
-    z-index: 99999999;
+    z-index: 99;
   }
 }
 
